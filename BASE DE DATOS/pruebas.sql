@@ -1,0 +1,9 @@
+CREATE DATABASE pruebas; 
+
+USE DATABASE pruebas; 
+
+CREATE TABLE usuarios( 
+idUsuario int PRIMARY KEY AUTO_INCREMENT, 
+nombre VARCHAR(50) NOT NULL, 
+email VARCHAR(50) NOT NULL 
+);
